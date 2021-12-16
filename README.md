@@ -1,5 +1,6 @@
 <header>
 <h1>Hi there, My name is Joe and I'd like to welcome you to my github!</h1>
+<link rel="stylesheet" href="main.css">
 <header>
 
 <br>
@@ -29,9 +30,10 @@
 </body>
 
 <Footer>  
-  <h3>Contact Information</h3>
-  <ol>
-    <li>Email: joe_Tidwell@outlook.com</li>
-  </ol>
+<script>
+<h3>Contact Information</h3>
+<p>Email: <a href = "mailto:joe_Tidwell@outlook.com?subject = I loved your Git Readme and wanted to reach out!">
+joe_Tidwell@outlook.com
+</a>
 </Footer>
 
