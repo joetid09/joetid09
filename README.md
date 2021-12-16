@@ -19,7 +19,7 @@
       all that I had learned at NSS.
   </p>
   <p>
-      Most currently I have teamed up with my friend <ahref ="https://github.com/johnhester">John</a> to build a task or todo list Hub. Our goal is to allow users to
+      Most currently I have teamed up with my friend <a href ="https://github.com/johnhester">John</a> to build a task or todo list Hub. Our goal is to allow users to
       created notes, todo lists, and many other items that you can create with the application Joplin on your phone or computer. What is cool about that, is that Joplin also
       has an opensource server that the app can synchronize with to INSERT/UPDATE/DELETE records on a PostgreSQL database. So we are currently going through a Docker tutorial
       so that we can containerize a PostgreSQL DB and Joplin server that will be hosted locally, which we'll be updating and managing via git and docker repos. Once we get
@@ -30,9 +30,9 @@
 </body>
 
 <Footer>  
-<script>
+
 <h3>Contact Information</h3>
-<p>Email: <a href = "mailto:joe_Tidwell@outlook.com?subject = I loved your Git Readme and wanted to reach out!">
+<p>Email: <a href = "mailto:joe_Tidwell@outlook.com?subject = I loved your github and wanted to reach out!&body = Message">
 joe_Tidwell@outlook.com
 </a>
 </Footer>
