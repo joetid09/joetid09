@@ -10,13 +10,13 @@
                 color: #6c9d87;
             } -->
            
-           .possBod{
+           <!-- .possBod{
                background-color: black;
            }
 
             * {
 	        box-sizing: border-box;
-            }
+            } -->
             <!-- h1 {
                 text-align:center;
                 color: red;
@@ -48,10 +48,12 @@
 	             background-color: #3b3d54;
 	             font-size: 14px;
 	                 overflow: hidden;
+                   
                 }
 
              .wrap {
             	 perspective-origin: 50% 50%;
+
             }
              .page {
             	 margin: 3%;
@@ -61,7 +63,8 @@
             	 padding: 30px;
             	 border-radius: 3px;
             	 text-align: center;
-            	 font-size: 1.4vw;
+            	 font-size: 2.1vw;
+                
             }
 
              .page h2 {
@@ -70,6 +73,7 @@
 	            font-weight: 900;
 	            font-style: italic;
 	            color: #dad8ec;
+                
             }
 
              .svg {
@@ -253,6 +257,14 @@
   </p>
 </body>
 
+            <Footer>  
+            <h3>Contact Information</h3>
+           
+            <p>Email: <a href="">joe_Tidwell@outlook.com</a></p>
+            </Footer>
+            <svg>
+            <a href="https://developer.mozilla.org/"><text x="10" y="25">MDN Web Docs</text></a>
+            </svg>
 
             </div>
 
@@ -294,17 +306,6 @@
                 </svg>
 
             </div>
-            <Footer>  
-<h3>Contact Information</h3>
-<p>Email: <a href="">joe_Tidwell@outlook.com</a></p>
-<!-- <Footer>  
-
-<h3>Contact Information</h3>
-<p>Email: <a href = "mailto:joe_Tidwell@outlook.com?subject = I loved your github and wanted to reach out!&body = Message">
-joe_Tidwell@outlook.com
-</a>
-</Footer> -->
-</Footer>
         </div>
    
     </foreignObject>
