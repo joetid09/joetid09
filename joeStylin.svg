@@ -1,34 +1,311 @@
 <svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
+    <foreignObject class="possBod" width="100%" height="100%">
+        <div  xmlns="http://www.w3.org/1999/xhtml">
+        
             <style>
-            h1 {
+            @import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i';
+           
+                       <!-- *{
+                background-color: #b0cece;
+                color: #6c9d87;
+            } -->
+           
+           .possBod{
+               background-color: black;
+           }
+
+            * {
+	        box-sizing: border-box;
+            }
+            <!-- h1 {
                 text-align:center;
                 color: red;
                 animation: mymove 2s infinite;
                 font-size: 13px;
             }
 
-            header {
-                
+            h2{
+                color: yellow;
             }
-            *{
-                background-color: #b0cece;
-                color: #6c9d87;
-            }
+
             
             @keyframes mymove {
                 from {
-                    color: red;
+                    color: pink;
                 }
                 to {
-                    color: yellow;
+                    color: purple;
                 }
-            }            
+            }          -->
+            
+            .possBod {
+	             font-family: 'Playfair Display', serif;
+	             color: rgba(172, 170, 190, 1);
+	             text-rendering: optimizeLegibility;
+	             font-smooth: always;
+	             -webkit-font-smoothing: antialiased;
+	             -moz-osx-font-smoothing: grayscale;
+	             background-color: #3b3d54;
+	             font-size: 14px;
+	                 overflow: hidden;
+                }
+
+             .wrap {
+            	 perspective-origin: 50% 50%;
+            }
+             .page {
+            	 margin: 3%;
+            	 max-width: 600px;
+            	 margin-left: auto;
+            	 margin-right: auto;
+            	 padding: 30px;
+            	 border-radius: 3px;
+            	 text-align: center;
+            	 font-size: 1.4vw;
+            }
+
+             .page h2 {
+	            font-weight: bold;
+	            font-size: 6.5vw;
+	            font-weight: 900;
+	            font-style: italic;
+	            color: #dad8ec;
+            }
+
+             .svg {
+	            stroke: #7ceaa4;
+	            position: absolute;
+	            bottom: -100vh;
+	            transform-style: preserve-3d;
+                }
+            
+             .svg:nth-child(1) {
+            	 left: 86%;
+            	 animation: raise1 11s linear infinite;
+            	 animation-delay: -3s;
+            	 transform: scale(-0.3) rotate(321deg);
+            	 z-index: -6;
+            	 filter: blur(-5px);
+                }
+
+             @keyframes raise1 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(-0.3) rotate(175deg);
+            	}
+            }
+
+             .svg:nth-child(2) {
+            	 left: 86%;
+            	 animation: raise2 15s linear infinite;
+            	 animation-delay: -2s;
+            	 transform: scale(0) rotate(75deg);
+            	 z-index: -5;
+            	 filter: blur(-4px);
+            }
+
+             @keyframes raise2 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(0) rotate(16deg);
+            	}
+            }
+             .svg:nth-child(3) {
+            	 left: 57%;
+            	 animation: raise3 11s linear infinite;
+            	 animation-delay: -4s;
+            	 transform: scale(0.3) rotate(104deg);
+            	 z-index: -4;
+            	 filter: blur(-3px);
+            }
+
+             @keyframes raise3 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(0.3) rotate(88deg);
+            	}
+            }
+
+            .svg:nth-child(4) {
+            	 left: 12%;
+            	 animation: raise4 7s linear infinite;
+            	 animation-delay: -2s;
+            	 transform: scale(0.6) rotate(39deg);
+            	 z-index: -3;
+            	 filter: blur(-2px);
+            }
+             @keyframes raise4 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(0.6) rotate(11deg);
+            	}
+            }
+             .svg:nth-child(5) {
+            	 left: 20%;
+            	 animation: raise5 18s linear infinite;
+            	 animation-delay: -3s;
+            	 transform: scale(0.9) rotate(168deg);
+            	 z-index: -2;
+            	 filter: blur(-1px);
+            }
+             @keyframes raise5 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(0.9) rotate(256deg);
+            	}
+            }
+             .svg:nth-child(6) {
+            	 left: 57%;
+            	 animation: raise6 13s linear infinite;
+            	 animation-delay: -4s;
+            	 transform: scale(1.2) rotate(134deg);
+            	 z-index: -1;
+            	 filter: blur(0px);
+            }
+             @keyframes raise6 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(1.2) rotate(200deg);
+            	}
+            }
+             .svg:nth-child(7) {
+            	 left: 48%;
+            	 animation: raise7 11s linear infinite;
+            	 animation-delay: -1s;
+            	 transform: scale(1.5) rotate(197deg);
+            	 z-index: 0;
+            	 filter: blur(1px);
+            }
+             @keyframes raise7 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(1.5) rotate(348deg);
+            	}
+            }
+             .svg:nth-child(8) {
+            	 left: 3%;
+            	 animation: raise8 19s linear infinite;
+            	 animation-delay: 0s;
+            	 transform: scale(1.8) rotate(162deg);
+            	 z-index: 1;
+            	 filter: blur(2px);
+            }
+             @keyframes raise8 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(1.8) rotate(88deg);
+            	}
+            }
+             .svg:nth-child(9) {
+            	 left: -17%;
+            	 animation: raise9 13s linear infinite;
+            	 animation-delay: -3s;
+            	 transform: scale(2.1) rotate(347deg);
+            	 z-index: 2;
+            	 filter: blur(3px);
+            }
+             @keyframes raise9 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(2.1) rotate(187deg);
+            	}
+            }
+             .svg:nth-child(10) {
+            	 left: 13%;
+            	 animation: raise10 11s linear infinite;
+            	 animation-delay: -4s;
+            	 transform: scale(2.4) rotate(43deg);
+            	 z-index: 3;
+            	 filter: blur(4px);
+            }
+             @keyframes raise10 {
+            	 to {
+            		 bottom: 150vh;
+            		 transform: scale(2.4) rotate(59deg);
+            	}
+            }
+ 
             </style>
-            <header>
-                <h1>Hi there, My name is Joe and I'd like to welcome you to my github!</h1>
-            </header>
+
+            <div class='page'>
+            The closer/bigger the object is, more blur is added
+                <body>
+  <h3>A little about my background</h3>
+  <p>
+      I was a cryptologic technician in the United States Navy, which is when I really realized just how cool the tech world could be. However, once I left the Navy
+      I actually wound up starting a career in Customer Relations and eventually climbing the ladder up to Internal Sales for a fortune 500 company. I was 
+      extremely grateful for the opportunity to have been fortunate enough to reach that level of employment, but I really just wanted to get back into a more 
+      technological role. As it would happen, I was laid off due to the Covid-19 pandemic and used that opportunity to transition into a Full-Stack Development 
+      Bootcamp that was being offered at <a href="https://nashvillesoftwareschool.com/">Nashville Software School</a>. At the bootcamp I learned HTML, CSS, 
+      javascript, REACT, C#, .NET fundamentals and actually made these apps as my capstones: <a href="https://github.com/joetid09/anythingJoes">anythingJoes</a>
+      and <a href="https://github.com/joetid09/GetWorking">GetWorking</a>. Once I graduated I was hired at large scale construction company, which is where I picked
+      up how to build stored procedures, design data warehouses, ETL pipelines, Query tune, Microsoft Azure, MVC applications, SyncFusion framework, SSIS, and practiced
+      all that I had learned at NSS.
+  </p>
+  <p>
+      Most currently I have teamed up with my friend <a href ="https://github.com/johnhester">John</a> to build a task or todo list Hub. Our goal is to allow users to
+      created notes, todo lists, and many other items that you can create with the application Joplin on your phone or computer. What is cool about that, is that Joplin also
+      has an opensource server that the app can synchronize with to INSERT/UPDATE/DELETE records on a PostgreSQL database. So we are currently going through a Docker tutorial
+      so that we can containerize a PostgreSQL DB and Joplin server that will be hosted locally, which we'll be updating and managing via git and docker repos. Once we get
+      our database being updated by what we create in the Joplin app on our devices, well the transition over to the application itself. The current plan is to make 
+      a React App with Typescript and a backend with C# on the .NET framework. The app itself will allow users to go to a single website and set up text alerts, export your
+      notes to your personal calendars, as well as set the prioritization of the notes.
+  </p>
+</body>
+
+
+            </div>
+
+            <div class="wrap">
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg"> 
+                 <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">  
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m2.46177,126.39581c10.12618,-0.06577 20.25237,-0.13151 30.37857,-0.19726c0.06666,-10.3997 0.13333,-20.7994 0.19999,-31.19908c10.07782,0 20.15564,0 30.23346,0c0,-10.46351 0,-20.927 0,-31.39051c10.33589,0 20.67178,0 31.00767,0c0,-10.20827 0,-20.41656 0,-30.62485c10.20829,0 20.41656,0 30.62485,0c0,-10.20829 0,-20.41658 0,-30.62487c15.18483,0 30.36965,0 45.55448,0c0,5.10414 0,10.20829 0,15.31243c-10.08071,0 -20.16136,0 -30.24206,0c0,10.33589 0,20.67178 0,31.00769c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33589 0,20.67178 0,31.00767c-10.20829,0 -20.41656,0 -30.62485,0c0,10.33591 0,20.6718 0,31.00767c-10.33589,0 -20.67178,0 -31.00767,0c0,10.46351 0,20.927 0,31.39049c-15.31243,0 -30.62485,0 -45.93728,0c0.68263,-5.07223 -1.16374,-10.79174 0.43769,-15.68938l0,0z" stroke-width="7" fill="none"/>
+                </svg>
+
+            </div>
+            <Footer>  
+<h3>Contact Information</h3>
+<p>Email: <a href="">joe_Tidwell@outlook.com</a></p>
+<!-- <Footer>  
+
+<h3>Contact Information</h3>
+<p>Email: <a href = "mailto:joe_Tidwell@outlook.com?subject = I loved your github and wanted to reach out!&body = Message">
+joe_Tidwell@outlook.com
+</a>
+</Footer> -->
+</Footer>
         </div>
+   
     </foreignObject>
 </svg>
