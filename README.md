@@ -11,7 +11,7 @@
 <p>
     I do hope you will excuse the mess on this readme. I'm currently in the process<br />
     of trying to make it more of a personal website. I'm writing it out in HTML and<br />
-    will be styling it out by using svg files. For Now, Enjoy playing with the nav bar!
+    will be styling it out by using SVG files. For Now, Enjoy playing with the nav bar!
 
 </p>
 </body>
