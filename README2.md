@@ -27,21 +27,7 @@
   applications, SyncFusion framework, SSIS, and practiced
   all that I had learned at NSS.
 </p>
-<p>
-  Most currently I have teamed up with my friend <a href="https://github.com/johnhester">John</a> to build a task or
-  todo list Hub. Our goal is to allow users to
-  created notes, todo lists, and many other items that you can create with the application Joplin on your phone or
-  computer. What is cool about that, is that Joplin also
-  has an opensource server that the app can synchronize with to INSERT/UPDATE/DELETE records on a PostgreSQL database.
-  So we are currently going through a Docker tutorial
-  so that we can containerize a PostgreSQL DB and Joplin server that will be hosted locally, which we'll be updating and
-  managing via git and docker repos. Once we get
-  our database being updated by what we create in the Joplin app on our devices, well the transition over to the
-  application itself. The current plan is to make
-  a React App with Typescript and a backend with C# on the .NET framework. The app itself will allow users to go to a
-  single website and set up text alerts, export your
-  notes to your personal calendars, as well as set the prioritization of the notes.
-</p>
+
 </body>
 
 <!-- <div align="center">
