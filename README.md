@@ -1,21 +1,10 @@
-<div align="center">
+👋 Hey there, fellow sleep-deprived humans! 😴 
 
-  [![name](https://img.icons8.com/stickers/100/000000/home.png)](README.md) [![name](https://img.icons8.com/stickers/100/000000/user-male-circle.png)](README2.md)
-   <!-- [![name](https://img.icons8.com/stickers/100/000000/opened-folder.png)](README.md) -->
+I'm Joe, a .NET developer who's been wrangling code for a few years now.  While I've got a solid background in the .NET world, I'm currently on a mission to conquer the frontend with Vue.js (after some adventures with React and Angular).
 
-</div>
+💪  My current obsession: building an eCommerce site for CrossFit equipment that can handle even the most complex orders (because let's be honest, CrossFitters need *a lot* of gear!).  This is just the first step towards my ultimate goal: creating a nutrition-focused application to complement the gains.
 
-<body align="center">
-<h1>Hi, and welcome to my page!</h2>
+🏋️‍♀️  When I'm not battling code or burpees, you can find me headbanging at my desk (much to my dog's confusion). 
 
-<p>
-    I do hope you will excuse the mess on this readme. I'm currently in the process<br />
-    of trying to make it more of a personal website. I'm writing it out in HTML and<br />
-    will be styling it out by using SVG files. For Now, Enjoy playing with the nav bar!
-
-</p>
-</body>
-
-
-
-
+<!-- Let's connect and chat about all things code, CrossFit, or canine confusion! 🐶 -->
+<span>Now, if you'll excure me...</span><img src="./Images/the-it.gif"/>
