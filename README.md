@@ -7,5 +7,5 @@ I'm Joe, a .NET developer who's been wrangling code for a few years now.  While 
 🏋️‍♀️  When I'm not battling code or burpees, you can find me headbanging at my desk (much to my dog's confusion). 
 
 <!-- Let's connect and chat about all things code, CrossFit, or canine confusion! 🐶 -->
-Now, if you'll excuse me...
+Now, if you'll excuse me...<br>
 <img src="./Images/the-it.gif"/>
