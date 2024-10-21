@@ -10,5 +10,5 @@ I'm Joe, a .NET developer who's been wrangling code for a few years now.  While 
 Now, if you'll excuse me...<br>
 
 
-<span style="text-align:center;">><img src="./Images/the-it.gif"/></span>
+<span style="text-align:center;"><img src="./Images/the-it.gif"/></span>
 
