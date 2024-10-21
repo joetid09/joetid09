@@ -8,12 +8,7 @@ I'm Joe, a .NET developer who's been wrangling code for a few years now.  While 
 
 <!-- Let's connect and chat about all things code, CrossFit, or canine confusion! 🐶 -->
 Now, if you'll excuse me...<br>
-<span id="backToWork" >
-<img src="./Images/the-it.gif"/>
-</span>
-    <style>
-      .ibackToWork" {
-        text-align: center;
-        display: block;
-      }
-    </style>
+
+
+<span style="text-align:center;">><img src="./Images/the-it.gif"/></span>
+
